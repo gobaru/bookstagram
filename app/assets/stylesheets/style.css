@@ -44,7 +44,8 @@ a {
   display: flex;
   justify-content: center;
   margin: 30px 20px;
-  font-size: 60px;
+  font-size: 80px;
+  font-family: 'Londrina Shadow', cursive;
 }
 
 .logo {
@@ -56,11 +57,96 @@ a {
   display: flex;
   justify-content: center;
   margin: 30px 30px;
+  font-weight: lighter;
+}
+
+.nav__btn1 {
+  box-shadow: 0 0 5px 1px #ccc; 
+  padding: 6px;
+  border: solid 1px #3b4043;
+  border-radius: 4px;
+}
+
+.nav__btn1:hover {
+  box-shadow: 0 3px 6px 0 rgba(5, 5, 5, 0.2), 0 1px 8px 0 rgba(3, 3, 3, 0.12);
+  cursor: pointer;
 }
 
 .nav__btn2 {
-  padding: 0 40px 0 40px;
+  box-shadow: 0 0 5px 1px #ccc;
+  margin: 0 20px 0 20px;
+  padding: 6px;
+  border: solid 1px #3b4043;
+  border-radius: 4px;
 }
+
+.nav__btn2:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(3, 3, 3, 0.12);
+  cursor: pointer;
+}
+
+.nav__btn3 {
+  box-shadow: 0 0 5px 1px #ccc;
+  padding: 6px;
+  border: solid 1px #3b4043;
+  border-radius: 4px;
+}
+
+.nav__btn3:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(3, 3, 3, 0.12);
+  cursor: pointer;
+}
+
+/* フォーム */
+
+
+.form__wrapper{
+  min-height: calc(100vh - 161px);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.form__text {
+  width: 50%;
+}
+
+.field{
+  margin: 5px 0;
+  text-align: center;
+}
+
+.actions{
+  margin-bottom: 40px;
+}
+
+.form__btn{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.form__btn:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(3, 3, 3, 0.12);
+  cursor: pointer;
+}
+
+.login-flash-message {
+  text-align: center;
+  margin-top: 35px;
+  color: red;
+}
+
+.form-header-text {
+  font-size: small  ;
+}
+
+
+
+
+
+
+
 
 /* フッター */
 
